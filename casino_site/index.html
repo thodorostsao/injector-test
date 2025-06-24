@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Καζίνο Ελλάς</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Καζίνο Ελλάς</div>
+        <nav>
+            <ul>
+                <li><a href="#">Αρχική</a></li>
+                <li><a href="#slots">Κουλοχέρηδες</a></li>
+                <li><a href="#roulette">Ρουλέτα</a></li>
+                <li><a href="#blackjack">Μπλακτζάκ</a></li>
+                <li><a href="#betting">Στοίχημα</a></li>
+                <li><a href="#login">Σύνδεση</a></li>
+                <li><a href="#" id="signup-btn">Εγγραφή</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h1>Μπόνους καλωσορίσματος 100% έως 500€</h1>
+        <button class="play-now">Παίξε τώρα</button>
+    </section>
+
+    <section class="games" id="slots">
+        <h2>Κουλοχέρηδες</h2>
+        <p>Ανακαλύψτε τους πιο συναρπαστικούς κουλοχέρηδες με ελληνικό χαρακτήρα.</p>
+    </section>
+
+    <section class="games" id="roulette">
+        <h2>Ρουλέτα</h2>
+        <p>Ζήστε την ένταση της ρουλέτας με μοντέρνα και κλασικά τραπέζια.</p>
+    </section>
+
+    <section class="games" id="blackjack">
+        <h2>Μπλακτζάκ</h2>
+        <p>Παίξτε μπλακτζάκ με επαγγελματίες ντίλερ και κερδίστε μεγάλα έπαθλα.</p>
+    </section>
+
+    <section class="games" id="betting">
+        <h2>Στοίχημα</h2>
+        <p>Βάλτε στοίχημα στους αγαπημένους σας αγώνες με τις καλύτερες αποδόσεις.</p>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#">Όροι Χρήσης</a></li>
+            <li><a href="#">Υπεύθυνο Παιχνίδι</a></li>
+            <li><a href="#">Επικοινωνία</a></li>
+        </ul>
+    </footer>
+
+    <div id="signup-popup" class="popup hidden">
+        <div class="popup-content">
+            <span id="close-popup" class="close-btn">&times;</span>
+            <h2>Εγγραφή</h2>
+            <form>
+                <label for="username">Όνομα χρήστη</label>
+                <input type="text" id="username" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+                <label for="password">Κωδικός</label>
+                <input type="password" id="password" required>
+                <button type="submit">Υποβολή</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
